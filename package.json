@@ -1,0 +1,44 @@
+{
+  "name": "my-redux-with-immutable",
+  "version": "1.0.0",
+  "description": "learn immutable for redux",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --devtool eval --hot --inline --progress --color --host 0.0.0.0 --port 9999"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaowwwww/immutable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miaowwwww/immutable/issues"
+  },
+  "homepage": "https://github.com/miaowwwww/immutable#readme",
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "redux-immutablejs": "0.0.8",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "html-webpack-plugin": "^2.24.1",
+    "open-browser-webpack-plugin": "0.0.3",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.2",
+    "webpack-hot-server": "^0.6.1"
+  }
+}
